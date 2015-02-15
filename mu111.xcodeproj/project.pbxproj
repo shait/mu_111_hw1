@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A50413221A90B90F00AD3BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50413211A90B90F00AD3BCF /* AppDelegate.swift */; };
-		A50413241A90B90F00AD3BCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50413231A90B90F00AD3BCF /* ViewController.swift */; };
+		A50413241A90B90F00AD3BCF /* LecturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50413231A90B90F00AD3BCF /* LecturesViewController.swift */; };
 		A50413271A90B90F00AD3BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50413251A90B90F00AD3BCF /* Main.storyboard */; };
 		A50413291A90B90F00AD3BCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50413281A90B90F00AD3BCF /* Images.xcassets */; };
 		A504132C1A90B90F00AD3BCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A504132A1A90B90F00AD3BCF /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		A504131C1A90B90F00AD3BCF /* mu111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mu111.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50413201A90B90F00AD3BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50413211A90B90F00AD3BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A50413231A90B90F00AD3BCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A50413231A90B90F00AD3BCF /* LecturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesViewController.swift; sourceTree = "<group>"; };
 		A50413261A90B90F00AD3BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A50413281A90B90F00AD3BCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A504132B1A90B90F00AD3BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A50413211A90B90F00AD3BCF /* AppDelegate.swift */,
-				A50413231A90B90F00AD3BCF /* ViewController.swift */,
+				A50413231A90B90F00AD3BCF /* LecturesViewController.swift */,
 				A50413251A90B90F00AD3BCF /* Main.storyboard */,
 				A50413281A90B90F00AD3BCF /* Images.xcassets */,
 				A504132A1A90B90F00AD3BCF /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50413241A90B90F00AD3BCF /* ViewController.swift in Sources */,
+				A50413241A90B90F00AD3BCF /* LecturesViewController.swift in Sources */,
 				A50413221A90B90F00AD3BCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +341,7 @@
 				INFOPLIST_FILE = mu111/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +352,7 @@
 				INFOPLIST_FILE = mu111/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
